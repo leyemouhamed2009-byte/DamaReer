@@ -1,24 +1,25 @@
 {
   "expo": {
-    "name": "DamaReerApp",
+    "name": "Dama Réer",
     "slug": "DamaReerApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0D0D0D"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mouhamedleye.damareer"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0D0D0D"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.mouhamedleye.damareer"
