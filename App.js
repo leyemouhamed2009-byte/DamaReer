@@ -87,7 +87,7 @@ export default function App() {
   const chargerAlertes = async () => {
     setChargement(true);
     try {
-      const q = query(collection(db, 'alertes'), orderBy('timestamp', 'desc'));
+      const q = collection(db, 'alertes');
       const snapshot = await getDocs(q);
       const data = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
       setAlertes(data);
